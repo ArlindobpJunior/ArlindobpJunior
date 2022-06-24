@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ArlindobpJunior
-- 👀 I’m a Sofware Developer
+- 👀 I’m a Software Developer
 - 🌱 I’m currently learning JavaScript
 - - 📫 You can reach me in abpjunior@gmail.com
 

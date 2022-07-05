@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ArlindobpJunior
-- 👀 I’m a Software Developer
-- 🌱 I’m currently learning JavaScript
+- I’m a Junior Front-End Web Developer
+- I’m a beginner at HTML | CSS & JavaScript. I'm learning React JS.
 - - 📫 You can reach me in abpjunior@gmail.com
 
 <!---

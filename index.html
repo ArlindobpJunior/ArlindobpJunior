@@ -24,6 +24,8 @@
     
   </head>
   <body>
+
+    <!-- ==================== NAV BAR ==================== -->
     <nav>
       <div class="container nav__container">
         <a href="index.html" class="nav__logo">
@@ -36,7 +38,7 @@
           <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#contact">CONTATO</a></li>
           <li>
-            <a href="./images/cv.pdf" class="btn btn-primary" download
+            <a href="./images/cv.pdf" class="btn btn-variant" download
               ><i class="bi bi-download"></i> Download CV</a
             >
           </li>
@@ -46,5 +48,97 @@
         <button id="close-menu-btn"><i class="bi bi-x-lg"></i></i></button>
       </div>
     </nav>
+
+
+    <!-- ==================== HEADER ==================== -->
+    <header id="header">
+      <div class="container header__container">
+        <div class="header__left">
+          <div>
+            <h3>Oi. Eu sou</h3>
+            <h1>Arlindo</h1><br>
+            <h1>Junior</h1>
+            <p> Um Desenvolvedor Font-end apaixonado por UI/UX. Meu objetivo é dar a melhor experiência para o usuário.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Vamos conversar</a>
+          </div>          
+        </div>
+
+        <div class="header__right">
+          <div class="header__image">
+            <img src="./images/aboutMe.jpg"/>
+          </div>
+          <div class="header__right-bg"></div>
+          <ul class="header__socials">
+            <li><a href="https://linkedin.com/in/ArlindobpJunior" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://github.com/ArlindobpJunior" target="_blank"><i class="bi bi-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- ==================== PORTFOLIO ==================== -->
+    <section id="portfolio">
+      <div class="container portfolio__container">
+        <div class="portfolio__head">
+          <h2>Trabalhos recentes</h2>
+          <div class="portfolio__head-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iure qui commodi, at consectetur itaque vero perferendis accusamus nisi fugiat!
+            </p>
+            <a href="#">Explore more</a>
+          </div>
+        </div>
+
+        <div class="portfolio__projects">
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"><img src="./images/portfolio.png" alt=""></span>
+            <div class="portfolio__cta">
+              <a href="https://github.com/ArlindobpJunior/portfolio.git" class="btn" target="_blank">Github</a>
+              <a href="https://ArlindobpJunior.github.io/portfolio" class="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="portfolio__project">
+            <span class="portfolio__project-image"><img src="./images/netflix.jpg" alt=""></span>
+            <div class="portfolio__cta">
+              <a href="https://github.com/ArlindobpJunior/netflix-clone.git" class="btn" target="_blank">Github</a>
+              <a href="https://netflix-clone-d0836.web.app" class="btn btn-primary" target="_blank">Live Demo</a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact">
+      <div class="container contact__container">
+        <div class="contact__left">
+          <h2>Vamos Conversar</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere officia ipsum pariatur adipisci magni voluptate laudantium, ipsam id dolorum illo!</p>
+          <ul class="contact__socials">
+            <li><a href="https://linkedin.com/in/ArlindobpJunior" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://github.com/ArlindobpJunior" target="_blank"><i class="bi bi-github"></i></a></li>
+          </ul>
+        </div>
+
+        <form action="https://formspree.io/f/mknylanw" method="POST">
+          <input type="text" name="name" placeholder="Seu Nome">
+          <input type="email" name="email" placeholder="Seu Email">
+          <textarea name="message" rows="6" placeholder="Mensagem"></textarea>
+          <button type="submit" class="btn">Enviar <i class="bi bi-arrow-right-short"></i></button>
+        </form>
+      </div>      
+    </section>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      Copyright &copy; 2022 Arlindo Junior
+    </footer>
+
+
   </body>
 </html>

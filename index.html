@@ -4,140 +4,221 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArlindobpJunior</title>
+    <title>Arlindo Junior</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    
-    <!-- CSS only Bootstrap -->
+    <!-- Material Icons -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp"
     />
-    
-    <!-- Google fonts (Poppins) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- My Stylesheet style.css  -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BootStrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- My Stylesheet -->
     <link rel="stylesheet" href="./style.css" />
-    
   </head>
   <body>
-
-    <!-- ==================== NAV BAR ==================== -->
+    <!-- =============== NAV BAR =============== -->
     <nav>
-      <div class="container nav__container">
-        <a href="index.html" class="nav__logo">
-          <h3>ArlindoJr</h3>
-        </a>
-
-        <ul class="nav__menu">
-          <li><a href="index.html">INICIO</a></li>
-          <li><a href="#services">SERVIÇOS</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#contact">CONTATO</a></li>
+      <div class="container">
+        <a href="#"><h3>ArlindoJr</h3></a>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contato">Contato</a></li>
           <li>
-            <a href="./images/cv.pdf" class="btn btn-variant" download
-              ><i class="bi bi-download"></i> Download CV</a>
+            <a href="./images/cv.pdf" download
+              ><span class="material-symbols-sharp">download</span>CV</a
+            >
           </li>
         </ul>
-
-        <button id="open-menu-btn"><i class="bi bi-list"></i></button>
-        <button id="close-menu-btn"><i class="bi bi-x-lg"></i></i></button>
+        <button><span class="material-symbols-sharp">menu</span></button>
+        <button><span class="material-symbols-sharp">close</span></button>
       </div>
     </nav>
 
-
-    <!-- ==================== HEADER ==================== -->
-    <header id="header">
-      <div class="container header__container">
-        <div class="header__left">
-          <div>
-            <h3>Oi. Eu sou</h3>
-            <h1>Arlindo</h1><br>
-            <h1>Junior</h1>
-            <p> Um Desenvolvedor Font-end apaixonado por UI/UX. Meu objetivo é dar a melhor experiência para o usuário.</p>
-            <a href="#contact" class="btn btn-primary btn-lg">Vamos conversar</a>
-          </div>          
+    <!-- =============== HOME =============== -->
+    <section class="home">
+      <div class="container">
+        <div class="socials">
+          <a href="https://github.com/ArlindobpJunior" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/ArlindobpJunior/" target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
         </div>
 
-        <div class="header__right">
-          <div class="header__image">
-            <img src="./images/aboutMe.jpg"/>
+        <div class="info">
+          <h1>Desenvolvedor Font-end</h1>
+          <h3>Oi, eu sou Arlindo Junior</h3>
+          <p>
+            Sou um Desenvolvedor Font-end. Apaixonado por UX/UI designer. Meu
+            objetivo é aplicar meu conhecimento para que o usuário fique
+            fascinado ao navegar por uma pagina que eu a construir. Procuro
+            sempre aprender novas técnicas e ter boa comunicação com as pessoas
+            para resolver melhor os problemas
+          </p>
+        </div>
+
+        <div class="profile-area">
+          <div class="outer-circle">
+            <span class="material-symbols-sharp">design_services</span>
+            <span class="material-symbols-sharp">dns</span>
+            <span class="material-symbols-sharp">code</span>
+            <span class="material-symbols-sharp">integration_instructions</span>
           </div>
-         
-          <ul class="header__socials">
-            <li><a href="https://linkedin.com/in/ArlindobpJunior" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="https://github.com/ArlindobpJunior" target="_blank"><i class="bi bi-github"></i></a></li>
-          </ul>
+          <div class="inner-circle">
+            <img src="./images/me.png" />
+          </div>
         </div>
       </div>
-    </header>
+    </section>
 
+    <!-- =============== SKILLS =============== -->
+    <section class="skills" id="skills">
+      <h1>Skills</h1>
+      <div class="container">
+        <div class="skill">
+          <div class="head">
+            <div class="left">
+              <span class="material-symbols-sharp"> design_services </span>
+              <h4>Desenvolvimento Font-end</h4>
+            </div>
+            <div class="right">
+              <span class="material-symbols-sharp"> expand_more </span>
+            </div>
+          </div>
 
-    <!-- ==================== PORTFOLIO ==================== -->
-    <section id="portfolio">
-      <div class="container portfolio__container">
-        <div class="portfolio__head">
-          <h2>Trabalhos recentes</h2>
-          <div class="portfolio__head-right">
+          <div class="items">
+            <div class="item">
+              <h5>HTML</h5>
+              <div class="progress-area">
+                <div class="progress-bar">
+                  <div class="progress"></div>
+                </div>
+                <h5>75%</h5>
+              </div>
+            </div>
+
+            <div class="item">
+              <h5>CSS</h5>
+              <div class="progress-area">
+                <div class="progress-bar">
+                  <div class="progress"></div>
+                </div>
+                <h5>70%</h5>
+              </div>
+            </div>
+
+            <div class="item">
+              <h5>JavaScript</h5>
+              <div class="progress-area">
+                <div class="progress-bar">
+                  <div class="progress"></div>
+                </div>
+                <h5>50%</h5>
+              </div>
+            </div>
+
+            <div class="item">
+              <h5>ReactJs</h5>
+              <div class="progress-area">
+                <div class="progress-bar">
+                  <div class="progress"></div>
+                </div>
+                <h5>40%</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============== PORTFOLIO =============== -->
+    <section class="recent-work" id="portfolio">
+      <div class="container">
+        <h4>Meus Trabalhos</h4>
+        <h1>Alguns dos meus trabalhos recentes</h1>
+        <div class="projects">
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./images/portfolio.png" alt="" />
+            </div>
+            <h2>Portfolio Web Site</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iure qui commodi, at consectetur itaque vero perferendis accusamus nisi fugiat!
+              Site com um exemplo de portfolio pessoal. Responsivo para
+              computador, tablet e smartphone
             </p>
-            <a href="#">Explore more</a>
+            <div class="action">
+              <a
+                href="https://github.com/ArlindobpJunior/portfolio"
+                target="_blank"
+                >Github</a
+              >
+              <a
+                href="https://ArlindobpJunior.github.io/portfolio"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="thumbnail">
+              <img src="./images/netflix.jpg" alt="" />
+            </div>
+            <h2>Netflix Clone</h2>
+            <p>
+              Site que consome a The movie database API para carregar uma página
+              de catálagos de filmes e séries
+            </p>
+            <div class="action">
+              <a
+                href="https://github.com/ArlindobpJunior/netflix-clone"
+                target="_blank"
+                >Github</a
+              >
+              <a href="https://netflix-clone-d0836.web.app/" target="_blank"
+                >Live Demo</a
+              >
+            </div>
           </div>
         </div>
-
-        <div class="portfolio__projects">
-          <article class="portfolio__project">
-            <span class="portfolio__project-image"><img src="./images/portfolio.png" alt=""></span>
-            <div class="portfolio__cta">
-              <a href="https://github.com/ArlindobpJunior/portfolio.git" class="btn" target="_blank">Github</a>
-              <a href="https://ArlindobpJunior.github.io/portfolio" class="btn btn-primary" target="_blank">Live Demo</a>
-            </div>
-          </article>
-
-          <article class="portfolio__project">
-            <span class="portfolio__project-image"><img src="./images/netflix.jpg" alt=""></span>
-            <div class="portfolio__cta">
-              <a href="https://github.com/ArlindobpJunior/netflix-clone.git" class="btn" target="_blank">Github</a>
-              <a href="https://netflix-clone-d0836.web.app" class="btn btn-primary" target="_blank">Live Demo</a>
-            </div>
-          </article>
-
-        </div>
-
       </div>
     </section>
 
-    <!-- ==================== CONTACT ==================== -->
-    <section id="contact">
-      <div class="container contact__container">
-        <div class="contact__left">
-          <h2>Vamos Conversar</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere officia ipsum pariatur adipisci magni voluptate laudantium, ipsam id dolorum illo!</p>
-          <ul class="contact__socials">
-            <li><a href="https://linkedin.com/in/ArlindobpJunior" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="https://github.com/ArlindobpJunior" target="_blank"><i class="bi bi-github"></i></a></li>
-          </ul>
+    <!-- =============== CONTATO =============== -->
+    <section class="contact" id="contato">
+      <div class="overlay">
+        <div class="container">
+          <h1>Vamos Conversar</h1>
+          <p>Mande uma mensagem para para mim</p>
+          <form action="https://formspree.io/f/mknylanw" method="post">
+            <input type="text" name="Name" placeholder="Nome" required />
+            <input type="email" name="Email" placeholder="Email" required />
+            <input type="text" name="Subject" placeholder="Assunto" required />
+            <textarea name="Message" placeholder="Mensagem" required></textarea>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+          </form>
         </div>
-
-        <form action="https://formspree.io/f/mknylanw" method="POST">
-          <input type="text" name="name" placeholder="Seu Nome" required>
-          <input type="email" name="email" placeholder="Seu Email" required>
-          <textarea name="message" rows="6" placeholder="Mensagem" required></textarea>
-          <button type="submit" class="btn">Enviar <i class="bi bi-arrow-right-short"></i></button>
-        </form>
-      </div>      
+      </div>
     </section>
 
+    <!-- =============== FOOTER =============== -->
 
-    <!-- ==================== FOOTER ==================== -->
-    <footer>
-      Copyright &copy; 2022 Arlindo Junior
-    </footer>
-
+    <!-- =============== SCRIPT =============== -->
     <script src="./main.js"></script>
   </body>
 </html>

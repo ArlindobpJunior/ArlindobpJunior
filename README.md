@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @ArlindobpJunior
 - I’m a Junior Front-End Web Developer
-- I’m a beginner at HTML | CSS & JavaScript. I'm learning React JS.
+- I’m a beginner at HTML | CSS & JavaScript. 
+- I'm learning React JS and React-Native.
 - - 📫 You can reach me in arlindobpjunior@gmail.com
 
 <!---

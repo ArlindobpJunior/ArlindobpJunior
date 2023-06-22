@@ -4,6 +4,7 @@
 - ReactJs | NextJs 
 - React-Native
 - - 📫 You can reach me in arlindobpjunior@gmail.com
+- site do meu portfolio:  https://arlindobpjunior.github.io/ArlindobpJunior/
 
 <!---
 ArlindobpJunior/ArlindobpJunior is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
